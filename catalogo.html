@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="Views/CSS/catalogo1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/de9cdb50bb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" href="Views/Img/book1.png">
+    <title>Catálogo</title>
+</head>
+<body>
+ 
+    <header>
+        <div class="header">
+            <img src="Views/Img/a2.svg" alt="" class="logo fl">
+            <h2 class="title"> De la A a la Z</h2>
+        </div>
+    </header>
+
+
+        <form action='catalogo.php' id='search-form' method='post' >
+            <div class="entrada_cont">
+                
+                <input id='input1' name='input1' type="text" placeholder="¿Qué libro te interesa hoy?">
+                <div class="cont1">
+                    <div class="cont2">
+                        <button id='search-button' type='submit' name="enviar"><i class='bx bx-search-alt'></i></button>
+                         
+                    </div>
+                </div> 
+            </div> 
+        </form>
+
+        <form name="formFiltro" id="filtrando" action="catalogo.php" method="post">
+            <select class="browser-default filtro" name="genero">
+                <option value="ds" disabled selected ds>Género</option>
+                <option>Comedia</option>
+                <option>Juvenil</option>
+                <option>Romance</option>
+            </select>
+            <input type="submit" class="filtrar" name="filtrar" value="Filtrar">
+            
+        </form>
+
+    
+
+        <section class="contenedor">
+
+            <section class="primerosCuatro">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                
+                </div>
+            </section>
+
+            <section class="segundosCuatro">
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2"><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        
+                        <img class="activator" src="">
+                        
+                        <img class="activator" src="Views/Img/los7.jpg">
+                        
+                    </div>
+
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4 titulo" id="titulo">Los siete maridos de Evelyn Hugo<i class='bx bx-plus plus'></i></span>
+                        <p class="autor">Taylor Jenkins Reid</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4 titulo2">><i class='bx bx-rewind atras'></i></span>
+                        <p class="autor2">Taylor Jenkins Reid</p>
+                        <p class="genero">Novela, ficción</p>
+                        <p class="anio">Editorial: Atria Books </p>
+                        <p class="unidad">Disponibilidad: 10u</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <button class="btn_volver" onclick="volver()"><i class='bx bx-arrow-back'></i></button>
+        
+        </section>
+
+        <!--------------pie de pagina------------
+
+    <footer class="page-footer">
+        <div class="container cont">
+            <div class="row">
+              <div class="col l4 m4 s12 img">
+                <img src="Views/Img/escritorio.png">
+              </div>
+              <div class="col l4 m4 s12 sobre-nos">
+                <h2 class="nos-txt">SOBRE NOSOTRAS</h2>
+                <p>Schaab Micaela, Blanco Malena, Manzoni Micaela.  </p>                    
+                <p>Alumnas de 7mo3ra, nuestro objetivo con nuestro proyecto es fomentar la lectura y que la biblioteca de nuestra escuela crezca.</p>     
+              </div>
+              <div class="col l4 m4 s12 siguenos">
+                <h2 class="sig-txt">SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footer2">
+        <div class="row footer">
+            <div class="col s12 m12 l12">
+                <p>© 2022 <b>M & M & M</b> - Todos los Derechos Reservados.</p>
+            </div>
+        </div>
+    </section>-->
+
+
+<script>
+    function volver(){
+        window.location.href = "homeWeb.html";
+    }
+</script>
+</body>
+</html>
